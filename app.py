@@ -1,6 +1,6 @@
 #!/venv/bin/python3
 
-from flask import Flask, request, redirect, url_for, render_template
+from flask import Flask, request, redirect, render_template
 from main import main
 
 app = Flask(__name__)
