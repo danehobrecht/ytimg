@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block body %}
+	<div class="center-page">
+		<div id="input">
+			<h1>ytimg</h1>
+			<p>Enter the YouTube video URL</p>
+			<form method="POST";>
+				<input class="input" type="text" name="url" placeholder="https://www.youtube.com/watch?v=Y6ljFaKRTrI" maxlength="43"/><br><br>
+			</form>
+		</div>
+		<div class="loader toshow"></div>
+		<script>
+			$("input.video-input").on('keypress',function(e) {
+				if(e.which == 13) {
+					$("#input").hide();
+					$(".loader").show();
+				}
+			});
+		</script>
+	</div>
+{% endblock %}
