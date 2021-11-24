@@ -1,9 +1,9 @@
-![ytimg](https://raw.githubusercontent.com/tmuq/ytimg/main/static/media/demonstration.gif)
+![demonstration](https://raw.githubusercontent.com/tmuq/ytimg/main/static/media/demonstration.gif)
 ### Self-host
 #### GNU/Linux, MacOS
 1. Download the zip and create a virtual environment named "venv" in the extracted directory
 ```
-python3 -m venv /path/to/shadowtube/venv
+python3 -m venv /path/to/ytimg/venv
 ```
 2. Navigate to directory
 ```
