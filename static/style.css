@@ -1,11 +1,11 @@
 @font-face {
-   font-family: "LiberationSans-Regular";
-   src: url("liberation_sans/LiberationSans-Regular.ttf");
+	font-family: "LiberationSans-Regular";
+	src: url("liberation_sans/LiberationSans-Regular.ttf");
 }
 
 @font-face {
-   font-family: "LiberationSans-Bold";
-   src: url("liberation_sans/LiberationSans-Bold.ttf");
+	font-family: "LiberationSans-Bold";
+	src: url("liberation_sans/LiberationSans-Bold.ttf");
 }
 
 a {
@@ -22,45 +22,27 @@ html {
 
 footer {
 	font-size: 18px;
-    left: 0;
-    bottom: 0;
-    height: 60px;
-    width: 100%;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
 	position: absolute;
-    overflow: hidden;
-}
-
-.toshow {
-	display: none;
+	overflow: hidden;
 }
 
 .center-page {
-    top: 43%;
+	top: 43%;
 	left: 50%;
 	position: absolute;
-    transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
 	-moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
 }
 
-.input {
+.user-input {
 	font-family: 'LiberationSans-Regular';
 	font-size: 18px;
 	height: 50px;
 	width: 500px;
 	text-align: center;
-}
-
-@keyframes spin {
-	0% {transform: rotate(0deg);}
-	100% {transform: rotate(360deg);}
-}
-
-.loader {
-	margin: auto;
-	width: 15px;
-	height: 15px;
-	border-radius: 10%;
-	border: 15px solid white;
-	animation: spin 2s linear infinite;
 }
