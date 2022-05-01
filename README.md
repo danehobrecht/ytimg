@@ -1,7 +1,4 @@
 ![demonstration](https://raw.githubusercontent.com/tmuq/ytimg/main/static/media/demonstration.gif)
-### Prerequisites
- - [Python 3.9.2 & pip3](https://www.python.org/downloads/)
- - [virtualenv](https://pypi.org/project/virtualenv/)
 ### Self-host
 #### GNU/Linux, MacOS
 1. Download the zip and create a virtual environment named "venv" in the extracted directory
@@ -45,3 +42,6 @@ set FLASK_APP=app.py
 ```
 python3 -m flask run
 ```
+## Prerequisites
+ - [Python 3.7.3+ & pip3](https://www.python.org/downloads/)
+ - [virtualenv](https://pypi.org/project/virtualenv/)
